@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.loqo {
+  font-size: 60px;
+  font-weight: 800;
+  color: #e10f15;
+}
+
+.click {
+  display: flex;
+  gap: 20px;
+}
+.click a {
+  font-size: 17px;
+  text-decoration: none;
+  color: rgb(115, 113, 113);
+}
+.inp input {
+  border: none;
+  outline: none;
+  width: 300px;
+}
+.inp {
+  border: 1px solid rgb(167, 167, 167);
+  padding: 6px;
+  border-radius: 6px;
+}
+.inp i {
+  color: gray;
+}
+/* txt start */
+.img{
+    width: 450px;
+}.img img{
+    width: 100%;
+}
+.mainContainer{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.txt {
+  font-weight: 900;
+  font-size: 80px;
+}
+.clr1{
+    color: gray;
+}
+.texttahoma{
+    color:rgb(52, 47, 47);
+    font-size: 15px;
+}
+/* button */
+.textLoqo button{
+    color: white;
+    background-color: #E10F15;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+    width: 270px;
+    font-size: 25px;
+    padding: 10px;
+}
+/* left side main sec */
+.shoueChange{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px
+    ;
+}
+.shoueChange div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
