@@ -5,10 +5,12 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-body{
-    height: 100vh;
-    background: linear-gradient(178deg, rgb(71 134 232 / 23%),white);
-
+/* background: linear-gradient(178deg, rgb(71 134 232 / 23%),white);   bu hisse red aiddir */
+/* background: linear-gradient(178deg, rgb(232 71 85 / 23%), white); bu hisse blue aiddir */
+/* background: linear-gradient(178deg, rgb(71 232 123 / 23%), white);  bu hisse black box aiddir  */
+body {
+  height: 100vh;
+  background: linear-gradient(178deg, rgb(232 71 85 / 23%), white);
 }
 nav {
   display: flex;
@@ -35,6 +37,7 @@ nav {
   outline: none;
   width: 300px;
   background-color: rgb(224 230 255 / 23%);
+  color: gray;
 }
 .inp {
   border: 1px solid rgb(167, 167, 167);
@@ -45,54 +48,54 @@ nav {
   color: gray;
 }
 /* txt start */
-.img{
-    width: 450px;
-}.img img{
-    width: 100%;
+.img {
+  width: 450px;
 }
-.mainContainer{
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.img img {
+  width: 100%;
+}
+.mainContainer {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .txt {
   font-weight: 900;
   font-size: 80px;
 }
-.clr1{
-    color: gray;
+.clr1 {
+  color: gray;
 }
-.texttahoma{
-    color:rgb(52, 47, 47);
-    font-size: 15px;
+.texttahoma {
+  color: rgb(52, 47, 47);
+  font-size: 15px;
 }
 /* button */
-.textLoqo button{
-    color: white;
-    background-color: #E10F15;
-    border-radius: 30px;
-    border: none;
-    margin-top: 30px;
-    width: 270px;
-    font-size: 25px;
-    padding: 10px;
+.textLoqo button {
+  color: white;
+  background-color: #e10f15;
+  border-radius: 30px;
+  border: none;
+  margin-top: 30px;
+  width: 270px;
+  font-size: 25px;
+  padding: 10px;
 }
 /* left side main sec */
-.shoueChange{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+.shoueChange {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
-.shoueChange div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    cursor: pointer;
+.shoueChange div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  cursor: pointer;
 }
-
