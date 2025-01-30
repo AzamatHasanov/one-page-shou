@@ -1,3 +1,3 @@
 # one-page-shou
 
-https://vocal-sunburst-fa9181.netlify.app/
+https://inquisitive-kitten-077090.netlify.app/
